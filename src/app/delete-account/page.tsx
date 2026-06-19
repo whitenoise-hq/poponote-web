@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { CONTACT_EMAIL } from "@/constants/links"
 
 export const metadata: Metadata = {
-  title: "계정 삭제 안내 — 포포노트",
+  title: "계정 삭제 안내",
 }
 
 const STEPS = [

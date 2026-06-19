@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 import { CONTACT_EMAIL } from "@/constants/links"
 
 export const metadata: Metadata = {
-  title: "문의하기 — 포포노트",
+  title: "문의하기",
 }
 
 const QUICK_FAQ = [
