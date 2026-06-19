@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-cream: #FAF6F1;
+  --color-cream-100: #F5EDE4;
+  --color-cream-200: #E8DDD1;
+  --color-primary: #E8835A;
+  --color-primary-light: #FDEEE8;
+  --color-ink: #2C2420;
+  --color-ink-500: #8C8077;
+  --color-white: #FFFFFF;
+
+  --font-pretendard: "Pretendard", sans-serif;
+  --font-jua: "Jua", sans-serif;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-pretendard);
+}
