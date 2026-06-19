@@ -25,12 +25,12 @@ export function HeroSection() {
           밥·간식·산책을 챙길 수 있어요.
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 max-w-md sm:max-w-none mx-auto">
           <a
             href={STORE_LINKS.GOOGLE_PLAY}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-primary text-white rounded-2xl text-base font-medium hover:bg-primary/90 transition-colors shadow-md cursor-pointer"
+            className="flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-2xl text-base font-medium hover:bg-primary/90 transition-colors shadow-md cursor-pointer"
           >
             <GooglePlayIcon />
             Google Play에서 다운로드
@@ -39,7 +39,7 @@ export function HeroSection() {
             href={STORE_LINKS.APP_STORE}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 bg-ink text-white rounded-2xl text-base font-medium hover:bg-ink/90 transition-colors shadow-md cursor-pointer"
+            className="flex items-center justify-center gap-2 px-8 py-4 bg-ink text-white rounded-2xl text-base font-medium hover:bg-ink/90 transition-colors shadow-md cursor-pointer"
           >
             <AppleIcon />
             App Store에서 다운로드
