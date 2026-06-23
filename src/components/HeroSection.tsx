@@ -27,15 +27,6 @@ export function HeroSection() {
 
         <div className="flex flex-col sm:flex-row items-stretch justify-center gap-4 max-w-md sm:max-w-none mx-auto">
           <a
-            href={STORE_LINKS.GOOGLE_PLAY}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-2xl text-base font-medium hover:bg-primary/90 transition-colors shadow-md cursor-pointer"
-          >
-            <GooglePlayIcon />
-            Google Play에서 다운로드
-          </a>
-          <a
             href={STORE_LINKS.APP_STORE}
             target="_blank"
             rel="noopener noreferrer"
@@ -47,14 +38,6 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
-}
-
-function GooglePlayIcon() {
-  return (
-    <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M3.609 1.814L13.792 12 3.61 22.186a.996.996 0 0 1-.61-.92V2.734a1 1 0 0 1 .609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.302 2.302a1 1 0 0 1 0 1.38l-2.302 2.302L15.396 13l2.302-2.492zM5.864 3.658L16.8 9.99l-2.302 2.302L5.864 3.658z" />
-    </svg>
   )
 }
 

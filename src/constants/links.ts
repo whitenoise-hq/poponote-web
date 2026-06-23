@@ -1,6 +1,6 @@
 export const STORE_LINKS = {
   GOOGLE_PLAY: "https://play.google.com/store/apps/details?id=com.poponote",
-  APP_STORE: "https://apps.apple.com/app/poponote/id000000000",
+  APP_STORE: "https://apps.apple.com/kr/app/%ED%8F%AC%ED%8F%AC%EB%85%B8%ED%8A%B8/id6782025922",
 } as const
 
 export const CONTACT_EMAIL = "ehddl453@naver.com"
